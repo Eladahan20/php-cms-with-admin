@@ -54,7 +54,7 @@ CREATE TABLE `comments` (
 --
 
 INSERT INTO `comments` (`comment_id`, `comment_post_id`, `comment_author`, `comment_email`, `comment_content`, `comment_status`, `comment_date`) VALUES
-(1, 155, 'EDWIN DIAZ', 'edwin@gmail.com', 'sfdgsdfg', 'approved', '2015-11-13');
+(1, 155, 'ELAD DAHAN', 'elad@gmail.com', 'sfdgsdfg', 'approved', '2015-11-13');
 
 -- --------------------------------------------------------
 
@@ -107,8 +107,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `username`, `user_password`, `user_firstname`, `user_lastname`, `user_email`, `user_image`, `user_role`, `randSalt`, `token`) VALUES
-(1, 'rico', '$2y$12$19ZpnAkuhoaAFH7dclUGy.WFIL84PJ8AS216azZtXALy6sqexsScC', '', '', 'rico@gmail.com', '', 'subscriber', '$2y$10$iusesomecrazystrings22', ''),
-(2, 'suave', '$2y$12$jG3YUwNt3X39OB.YJd311O9akwOw17N4e1NQ79N2xrojC5NG3Na3S', '', '', 'edwin@codingfaculty.com', '', 'admin', '$2y$10$iusesomecrazystrings22', '');
+(1, 'example', '12345', '', '', 'elad@gmail.com', '', 'subscriber', '$2y$10$iusesomecrazystrings22', '');
+
 
 -- --------------------------------------------------------
 
